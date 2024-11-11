@@ -1,17 +1,17 @@
-# San Valentín - Carta Interactiva
+# Valentine's Day - Interactive Love Letter
 
-Este proyecto es una carta interactiva en HTML para San Valentín, diseñada para expresar amor de una manera única y divertida. Contiene un mensaje personalizado y la pregunta especial: **"¿Quieres ser mi novia otra vez?"**. Acompañada de imágenes adorables de dinosaurios, la página permite a la persona interactuar con botones para responder "Sí" o "No".
+This project is an interactive HTML love letter for Valentine's Day, designed to express affection in a unique and fun way. It includes a personalized message and the special question: **"Will you be my girlfriend again?"** Accompanied by adorable dinosaur images, the page lets the recipient interact with buttons to answer "Yes" or "No".
 
-## Estructura
+## Structure
 
-- **HTML**: La estructura principal de la página, con un diseño simple que resalta los elementos más importantes: un mensaje cariñoso y la pregunta especial.
-- **CSS**: El archivo `style.css` maneja la presentación de los elementos visuales, incluyendo la disposición de las imágenes y la apariencia de los botones.
-- **JavaScript**: Un script `script.js` para manejar la interacción con los botones "Sí" y "No".
-  
-## Características
+- **HTML**: The main structure of the page, featuring a simple design that highlights the most important elements—a heartfelt message and the special question.
+- **CSS**: The `style.css` file handles the visual presentation, including the layout of the images and the appearance of the buttons.
+- **JavaScript**: A `script.js` script manages the interaction with the "Yes" and "No" buttons.
 
-- **Mensaje Personalizado**: Un encabezado con el texto _"Siempre supe que dirías que sí"_ seguido de la pregunta principal.
-- **Imágenes Temáticas**: Dos imágenes adorables de dinosaurios que representan el tema del amor.
-- **Interactividad**: Botones que permiten a la destinataria responder a la pregunta.
+## Features
 
+- **Personalized Message**: A header with the text _"I always knew you'd say yes"_ followed by the main question.
+- **Thematic Images**: Two adorable dinosaur images that emphasize the love theme.
+- **Interactivity**: Buttons that allow the recipient to respond to the question.
 
+Enjoy expressing your love in an interactive way!
