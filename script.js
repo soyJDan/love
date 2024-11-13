@@ -11,13 +11,26 @@ let messages = [
   'Mira el otro botón'
 ]
 
+const tryOption = 3;
+let countOption = 0;
+
 buttonNo.addEventListener('click', () => {
-  fontSize = fontSize + .5
-  buttonYes.style.fontSize = `${fontSize}rem`
+  if (tryOption !== countOption) {
+    fontSize = fontSize + .5
+    buttonYes.style.fontSize = `${fontSize}rem`
 
-  const indexRandom = Math.floor(Math.random() * messages.length)
+    const indexRandom = Math.floor(Math.random() * messages.length)
 
-  buttonNo.textContent = messages[indexRandom]
+    buttonNo.textContent = messages[indexRandom]
+
+    countOption++;
+  } else {
+    buttonNo.addEventListener('click', () => {
+      document.querySelector('#message_error').style.display = 'flex'
+      countOption = 0;
+    })
+  }
+
 })
 
 buttonYes.addEventListener('click', () => {
